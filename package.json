@@ -1,0 +1,31 @@
+{
+    "name": "nodejs_ex",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+
+        "start": "nodemon --inspect ./index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/minhtamtl/NodeJS-Excercises.git"
+    },
+    "keywords": [
+        "nodejs",
+        "learning"
+    ],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/minhtamtl/NodeJS-Excercises/issues"
+    },
+    "homepage": "https://github.com/minhtamtl/NodeJS-Excercises#readme",
+    "dependencies": {
+        "express": "^4.17.1"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.12"
+    }
+}
